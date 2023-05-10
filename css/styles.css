@@ -1,14 +1,16 @@
 .custom-background {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/whites.png');
     background-repeat: repeat;
-
 }
 
 .intercore-title-image-container {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0))
 }
 
 .intercore-title-image {
@@ -25,4 +27,8 @@
 
 .cassette-gif-image {
 
+}
+
+.backgroud-header {
+    background-image: url('../images/blues.png');
 }
